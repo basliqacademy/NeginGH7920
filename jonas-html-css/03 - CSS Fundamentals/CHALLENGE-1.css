@@ -1,0 +1,100 @@
+h1 {
+    text-align: center;
+    background-color: rgb(223, 199, 213);
+    border: purple;
+    border-style: solid;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+article {
+    border: solid rgb(247, 176, 211);
+    border-width: 5px;
+
+    border-style: dashed;
+    
+}
+
+.price {
+    font-weight:900;
+    font-size: x-large;
+    font-family: sans-serif;
+}
+
+.A{
+    color:cadetblue;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
+
+article a{
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+a:link{
+    color: blue !important;
+}
+
+
+
+a:visited{
+    color: purple;
+}
+
+
+
+a:hover{
+    color:rgb(234, 20, 20);
+    background-color: rgb(242, 206, 218);
+    border: 5px rgb(152, 27, 48) double ;
+    border-width: 10px;
+    font-size: x-large;
+    text-transform: uppercase ;
+
+}
+
+a:active{
+    color: yellow;
+}
+
+
+h3 {
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.square{
+    list-style-type: square ;
+
+}
+
+
+
+
+button {
+    background-color: rgb(221, 159, 159);
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+    
+    
+}
+
+
+button:hover {
+    background-color:darksalmon;
+    border-width: 0.2cm;
+    border-style:dotted ;
+    color: black;
+    font-weight: bold;
+    
+
+}
