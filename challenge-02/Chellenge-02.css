@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    @font-face {
+        font-family:"JetBrains Mono";
+        src: url('fonts/JetBrainsMono-Regular.woff2') format('woff2'),
+                 url('fonts/JetBrainsMono-Regular.woff') format('woff');
+    }
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+}
+article {
+    line-height: 10px;
+    background-color: #0E0E0E;
+    
+    line-height: 31.2px;
+    font-family: 'JetBrains Mono';
+    }
+table {
+    border-collapse: separate; 
+    padding-right: 30px;
+    text-align: left;
+    line-height: 15px;   
+}
+
+td {
+    padding-right: 30px;
+    text-align: left; 
+}
+ol {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;   
+}
+li {
+    margin-right: 30px;
+}
+li:nth-child(1) {
+    margin-left: 15px;
+}
+
+.info {
+    padding-right: 30px;   
+}
+.success-message {
+    color: #33FF60;
+}
+table {
+    border-collapse: separate; /* برای استفاده از border-spacing */
+}
+
+td {
+    padding-right: 30px; /* فاصله داخلی سلول‌ها */
+}
+.view {
+    color: #359EFF;
+    font-weight: bold;
+}
+.header {
+    color: #359EFF;
+}
+.error-message {
+    color: #FF5454;
+}
+.green-background {
+    margin-top: 10px;
+    background-color:#0C2100;
+    padding: 5px; 
+    line-height: 20px;
+}
+.red-background {
+    margin-top: 10px;
+    background-color: #1F0000;
+    line-height: 20px;
+}
+.gray-background {
+    background-color: #181818;
+    height: 381px;
+    margin-top: -10px;
+}
+.last-students {
+    line-height: 15px;
+}
+.num {
+    line-height: 20px;
+}
